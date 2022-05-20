@@ -38,6 +38,8 @@ Example of usage to add the modal to your website:
    ```markup
    <script src="https://admin.your.bitcartcc.url/modal/bitcart.js"></script>
    ```
+Note: Depending on your deployment, if you deployed via the onedomain mode this location would be "https://{BITCART_HOST}/admin/modal/bitcart.js"
+
 
 2. Call the invoice API to generate an invoice \(example code\). This is sample backend code as it contains an auth token that should not be exposed in your front-end.
 
